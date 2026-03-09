@@ -58,7 +58,8 @@ const Header = () => {
           <Image
             alt="profile image"
             src={"/profile.webp"}
-            className=" grayscale-[30%]  transition-all "
+            quality={100}
+            className="grayscale-[30%] contrast-[1.15] saturate-[1.1] transition-all"
             style={{
               borderRadius: "50%",
               height: "100%",

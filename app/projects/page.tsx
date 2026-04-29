@@ -24,8 +24,6 @@ export default function Projects() {
               name={project?.name}
               description={project?.description}
               image={project?.image}
-              liveLink={project?.liveLink}
-              githubLink={project?.githubLink}
               stacks={project?.stacks}
               type={project?.type}
             />
